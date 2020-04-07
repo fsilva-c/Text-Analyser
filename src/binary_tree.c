@@ -47,7 +47,7 @@ void printInOrder(Node *root){
         return;
     
     printInOrder(root->left);
-    printf("[%d] ", root->code);
+    printf("[%d] [%s]\n", root->code, root->info);
     printInOrder(root->right);
 }//END funtion
 
