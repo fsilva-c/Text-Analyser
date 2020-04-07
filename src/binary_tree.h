@@ -3,6 +3,8 @@
 
 typedef struct node{
     int code;
+    int wordSize;
+    int ocurrenceInTheText;
     char info[50];
     struct node *left, *right;
 }Node;

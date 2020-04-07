@@ -21,6 +21,8 @@ Node *elementCreator(char str[]){
 
     new->left = new->right = NULL;
     new->code = codGenerator(str);
+    new->ocurrenceInTheText = 1;
+    new->wordSize = strlen(str);
     strcpy(new->info, str);
 
     return new;
@@ -35,8 +37,10 @@ Node *tree(Node *root, Node *element){
     else{
         if(root->code > element->code)
             root->left = tree(root->left, element);
-        else
+        else if(root->code < element->code)
             root->right = tree(root->right, element);
+        else
+            root->ocurrenceInTheText++;
     }
 
     return root;    
@@ -47,7 +51,7 @@ void printInOrder(Node *root){
         return;
     
     printInOrder(root->left);
-    printf("[%d] [%s]\n", root->code, root->info);
+    printf("Código: [%d] || Palavra: [%s] || Ocorrências: [%d] || Tamanho: [%d]\n", root->code, root->info, root->ocurrenceInTheText, root->wordSize);
     printInOrder(root->right);
 }//END funtion
 
