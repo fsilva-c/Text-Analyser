@@ -11,8 +11,6 @@ typedef struct node{
     struct node *left, *right;
 }Node;
 
-int codGenerator(char str[]);
-
 Node *elementCreator(char str[]);
 Node *tree(Node *root, Node *element);
 void printInOrder(Node *root);

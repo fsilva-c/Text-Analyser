@@ -1,23 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 #include "binary_tree.h"
-
-int codGenerator(char str[]){
-    int sizeStr = strlen(str);
-    int counter = 0;
-
-    for(int i = 0; i < sizeStr; i++){
-        counter += str[i];
-    }
-
-    return counter;
-}//END function
 
 Node *elementCreator(char str[]){
     Node *new = (Node*)malloc(sizeof(Node));
     if(new == NULL) exit(EXIT_FAILURE);
+
+    strLower(str);
 
     new->left = new->right = NULL;
     new->code = codGenerator(str);

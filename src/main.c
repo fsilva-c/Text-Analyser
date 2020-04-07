@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "binary_tree.h"
+#include "str_manipulation.h"
 
 int main(){
     Node *root = NULL;
@@ -11,7 +12,12 @@ int main(){
     root = treeCreator_wordsArchive(root);
 
     printInOrder(root);
-    printf("\n");
+    printf("\n\n");
+
+    strTratament("x");
+    printf("\n\n");
+
+    printf("%s\n", A_TO_Z);
 
     return 0;
 }//END main

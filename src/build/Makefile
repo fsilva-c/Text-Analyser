@@ -177,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.c.s
 .PHONY : main.c.s
 
+str_manipulation.o: str_manipulation.c.o
+
+.PHONY : str_manipulation.o
+
+# target to build an object file
+str_manipulation.c.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/str_manipulation.c.o
+.PHONY : str_manipulation.c.o
+
+str_manipulation.i: str_manipulation.c.i
+
+.PHONY : str_manipulation.i
+
+# target to preprocess a source file
+str_manipulation.c.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/str_manipulation.c.i
+.PHONY : str_manipulation.c.i
+
+str_manipulation.s: str_manipulation.c.s
+
+.PHONY : str_manipulation.s
+
+# target to generate assembly for a file
+str_manipulation.c.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/str_manipulation.c.s
+.PHONY : str_manipulation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... str_manipulation.o"
+	@echo "... str_manipulation.i"
+	@echo "... str_manipulation.s"
 .PHONY : help
 
 

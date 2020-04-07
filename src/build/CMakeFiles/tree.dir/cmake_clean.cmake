@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tree.dir/main.c.o"
   "CMakeFiles/tree.dir/binary_tree.c.o"
+  "CMakeFiles/tree.dir/main.c.o"
+  "CMakeFiles/tree.dir/str_manipulation.c.o"
   "tree.pdb"
   "tree"
 )

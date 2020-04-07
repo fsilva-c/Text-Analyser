@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree/binary_tree.h
+
+/home/qwerty/Documents/multilanguage/word_analizer/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+binary_tree/binary_tree.h
+/home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree/binary_tree.h
+
