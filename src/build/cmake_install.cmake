@@ -1,4 +1,4 @@
-# Install script for directory: /home/qwerty/Documents/multilanguage/word_analizer/build
+# Install script for directory: /home/qwerty/Documents/multilanguage/word_analizer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/qwerty/Documents/multilanguage/word_analizer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qwerty/Documents/multilanguage/word_analizer/src/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

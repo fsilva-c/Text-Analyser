@@ -1,0 +1,3 @@
+/home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles/rebuild_cache.dir
+/home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles/tree.dir
+/home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles/edit_cache.dir

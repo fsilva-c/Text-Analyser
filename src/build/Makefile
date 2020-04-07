@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qwerty/Documents/multilanguage/word_analizer/build
+CMAKE_SOURCE_DIR = /home/qwerty/Documents/multilanguage/word_analizer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qwerty/Documents/multilanguage/word_analizer/build
+CMAKE_BINARY_DIR = /home/qwerty/Documents/multilanguage/word_analizer/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qwerty/Documents/multilanguage/word_analizer/build/CMakeFiles /home/qwerty/Documents/multilanguage/word_analizer/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles /home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qwerty/Documents/multilanguage/word_analizer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qwerty/Documents/multilanguage/word_analizer/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ tree/fast:
 	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
+binary_tree.o: binary_tree.c.o
+
+.PHONY : binary_tree.o
+
+# target to build an object file
+binary_tree.c.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/binary_tree.c.o
+.PHONY : binary_tree.c.o
+
+binary_tree.i: binary_tree.c.i
+
+.PHONY : binary_tree.i
+
+# target to preprocess a source file
+binary_tree.c.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/binary_tree.c.i
+.PHONY : binary_tree.c.i
+
+binary_tree.s: binary_tree.c.s
+
+.PHONY : binary_tree.s
+
+# target to generate assembly for a file
+binary_tree.c.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/binary_tree.c.s
+.PHONY : binary_tree.c.s
+
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tree"
 	@echo "... edit_cache"
+	@echo "... binary_tree.o"
+	@echo "... binary_tree.i"
+	@echo "... binary_tree.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
