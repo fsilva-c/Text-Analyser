@@ -1,11 +1,13 @@
 #ifndef BINARY_TREE
 #define BINARY_TREE
 
+#define WORD_SIZE 50
+
 typedef struct node{
     int code;
     int wordSize;
     int ocurrenceInTheText;
-    char info[50];
+    char info[WORD_SIZE];
     struct node *left, *right;
 }Node;
 

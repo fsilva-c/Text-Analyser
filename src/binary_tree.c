@@ -62,7 +62,7 @@ Node *treeCreator_wordsArchive(Node *root){
         exit(EXIT_FAILURE);
     }
 
-    char word[20];
+    char word[WORD_SIZE];
     while(fscanf(pArchive, "%s", word) != EOF){
         Node *new = elementCreator(word);
         root = tree(root, new);
