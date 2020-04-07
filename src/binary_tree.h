@@ -8,8 +8,11 @@ typedef struct node{
 }Node;
 
 int codGenerator(char str[]);
+
 Node *elementCreator(char str[]);
 Node *tree(Node *root, Node *element);
 void printInOrder(Node *root);
+
+Node *treeCreator_wordsArchive(Node *root);
 
 #endif

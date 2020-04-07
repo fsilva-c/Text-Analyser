@@ -7,11 +7,8 @@
 int main(){
     Node *root = NULL;
 
-    Node *new_0 = elementCreator("chevrolet");
-    Node *new_1 = elementCreator("margarina");
-
-    root = tree(root, new_0);
-    root = tree(root, new_1);
+    puts("Plantando a arvore!");
+    root = treeCreator_wordsArchive(root);
 
     printInOrder(root);
     printf("\n");

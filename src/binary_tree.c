@@ -50,3 +50,20 @@ void printInOrder(Node *root){
     printf("[%d] ", root->code);
     printInOrder(root->right);
 }//END funtion
+
+Node *treeCreator_wordsArchive(Node *root){
+    FILE *pArchive = fopen("/home/qwerty/Documents/multilanguage/word_analizer/books/test.txt", "r");
+    if(pArchive == NULL){
+        puts("Falha na abertura do arquivo, tente novamente.");
+        exit(EXIT_FAILURE);
+    }
+
+    char word[20];
+    while(fscanf(pArchive, "%s", word) != EOF){
+        Node *new = elementCreator(word);
+        root = tree(root, new);
+    }
+    fclose(pArchive);
+
+    return root;
+}//END function

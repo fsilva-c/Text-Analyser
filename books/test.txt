@@ -1,0 +1,1 @@
+Estou realizando um teste de mesa para o desenvolvimento do analisador de palavras implementado em c utilizando os conceitos de arvore binaria
