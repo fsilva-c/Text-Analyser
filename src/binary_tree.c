@@ -3,6 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/test.txt"
+
 #include "binary_tree.h"
 
 Node *elementCreator(char str[]){
@@ -48,7 +50,7 @@ void printInOrder(Node *root){
 }//END funtion
 
 Node *treeCreator_wordsArchive(Node *root){
-    FILE *pArchive = fopen("/home/qwerty/Documents/multilanguage/word_analizer/books/test.txt", "r");
+    FILE *pArchive = fopen(BOOK_PATH, "r");
     if(pArchive == NULL){
         puts("Falha na abertura do arquivo, tente novamente.");
         exit(EXIT_FAILURE);
@@ -62,4 +64,25 @@ Node *treeCreator_wordsArchive(Node *root){
     fclose(pArchive);
 
     return root;
+}//END function
+
+int treeHeight(Node *root){
+    if(root == NULL)
+        return -1;
+    else{
+        int leftSize = treeHeight(root->left);
+        int rightSize = treeHeight(root->right);
+        
+        if(leftSize < rightSize) 
+            return rightSize + 1;
+        else
+            return leftSize + 1;
+    }
+}//END function
+
+int wordsQuantity(Node *root){
+    if(root == NULL)
+        return 0;
+    else
+        return 1 + wordsQuantity(root->left) + wordsQuantity(root->right);
 }//END function

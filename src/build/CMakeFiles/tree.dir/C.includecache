@@ -25,9 +25,7 @@ binary_tree.h
 /home/qwerty/Documents/multilanguage/word_analizer/src/main.c
 stdio.h
 -
-stdlib.h
--
-string.h
+unistd.h
 -
 binary_tree.h
 /home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree.h

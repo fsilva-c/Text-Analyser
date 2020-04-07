@@ -17,4 +17,7 @@ void printInOrder(Node *root);
 
 Node *treeCreator_wordsArchive(Node *root);
 
+int treeHeight(Node *root);
+int wordsQuantity(Node *root);
+
 #endif

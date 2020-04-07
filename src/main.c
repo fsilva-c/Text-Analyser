@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <unistd.h>
 
 #include "binary_tree.h"
 #include "str_manipulation.h"
@@ -12,12 +11,10 @@ int main(){
     root = treeCreator_wordsArchive(root);
 
     printInOrder(root);
-    printf("\n\n");
+    printf("\n");
 
-    strTratament("x");
-    printf("\n\n");
-
-    printf("%s\n", A_TO_Z);
+    printf("Altura da árvore: [%d]\n", treeHeight(root));
+    printf("Quantidade de palavras(sem repetição): [%d]\n", wordsQuantity(root));
 
     return 0;
 }//END main
