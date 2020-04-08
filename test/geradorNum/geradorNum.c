@@ -20,6 +20,8 @@ int main(){
 
     printf("[%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d]\n", cod_0, cod_1, cod_2, cod_3, cod_4, cod_5, cod_6, cod_7, cod_8, cod_9, cod_10, cod_11);
 
+
+    printf("\n%d\n", codGenerator("dd"));
     return 0;
 }//END main
 
@@ -31,6 +33,9 @@ int codGenerator(char str[]){
     for(int i = 0; i < sizeStr; i++){
         map[i] = str[i];
     }
+
+    for(int i = 0; i < sizeStr; i++)
+        printf("%d ", map[i]);
 
     int number = 0;
     for (int i = sizeStr; i > 0; i--){

@@ -20,5 +20,6 @@ Node *treeCreator_wordsArchive(Node *root);
 int treeHeight(Node *root);
 int wordsQuantity(Node *root);
 int leaveQuantity(Node *root);
+int ocurrenceTotalQuantity(Node *root);
 
 #endif

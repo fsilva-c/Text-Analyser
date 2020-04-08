@@ -10,18 +10,23 @@ int codGenerator(char str[]){
     int sizeStr = strlen(str);
 
     int map[sizeStr];
-    int character;
     for(int i = 0; i < sizeStr; i++){
         map[i] = str[i];
     }
 
-    int number = 0;
-    for (int i = sizeStr; i > 0; i--){
-        number += 10 * i * map[sizeStr - i];
-    }
+    int cod = codConverter(map, sizeStr);
     
-    return number;
+    return cod;
 }//END function
+
+int codConverter(int map[], int sizeMap){
+    int num = 0;
+    for(int i = sizeMap; i > 0; i--){
+        num += 10 * i * map[sizeMap - 1];
+    }
+
+    return num;
+}//END funtion
 
 void strLower(char str[]){
     for(int i = 0; i < strlen(str); i++)
@@ -29,5 +34,20 @@ void strLower(char str[]){
 }//END function
 
 void strTratament(char str[]){
-    puts("strTratament");
-}
+    int sizeStr = strlen(str);
+
+    unsigned char c;
+    for(int i = 0; i < sizeStr; i++){
+        c = str[i];
+        if(checkTableInternal(c) == false){
+            str[i] = 0;
+        }
+    }
+}//END function
+
+bool checkTableInternal(unsigned char character){
+    if(character >= 33 && character <= 64)
+        return false;
+    else
+        return true;
+}//END funtion

@@ -1,10 +1,14 @@
 #ifndef STR
 #define STR
 
-#define A_TO_Z "65 90"
+#include <stdbool.h>
 
 int codGenerator(char str[]);
+int codConverter(int map[], int sizeMap);
+
 void strLower(char str[]);
 void strTratament(char str[]);
+
+bool checkTableInternal(unsigned char character);
 
 #endif

@@ -4,7 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/hinoVitoria.txt"
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/DELAS_PB.txt"
 
 #include "binary_tree.h"
 #include "str_manipulation.h"
@@ -14,6 +14,7 @@ Node *elementCreator(char str[]){
     if(new == NULL) exit(EXIT_FAILURE);
 
     strLower(str);
+    strTratament(str);
 
     new->left = new->right = NULL;
     new->code = codGenerator(str);
@@ -33,10 +34,10 @@ Node *tree(Node *root, Node *element){
     else{
         if(root->code > element->code)
             root->left = tree(root->left, element);
-        else //if(root->code < element->code)
+        else if(root->code < element->code)
             root->right = tree(root->right, element);
-        //else
-            //root->ocurrenceInTheText++;
+        else
+            root->ocurrenceInTheText++;
     }
 
     return root;    
@@ -96,4 +97,16 @@ int leaveQuantity(Node *root){
         return 1;
 
    return leaveQuantity(root->left) + leaveQuantity(root->right);
-}
+}//END function
+
+int ocurrenceTotalQuantity(Node *root){
+    int sumOcurrences = 0;
+
+    if(root == NULL)
+        return 0;
+    
+    if(root != NULL)
+        return sumOcurrences = root->ocurrenceInTheText + ocurrenceTotalQuantity(root->left) + ocurrenceTotalQuantity(root->right);
+
+    return sumOcurrences;
+}//END function
