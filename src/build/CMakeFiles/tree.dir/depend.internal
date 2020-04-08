@@ -3,6 +3,7 @@
 
 CMakeFiles/tree.dir/binary_tree.c.o
  ../include/binary_tree.h
+ ../include/str_manipulation.h
  /home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree.c
 CMakeFiles/tree.dir/main.c.o
  ../include/binary_tree.h

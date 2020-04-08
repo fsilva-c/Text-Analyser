@@ -23,6 +23,8 @@ ctype.h
 -
 binary_tree.h
 /home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree.h
+str_manipulation.h
+/home/qwerty/Documents/multilanguage/word_analizer/src/str_manipulation.h
 
 /home/qwerty/Documents/multilanguage/word_analizer/src/main.c
 stdio.h

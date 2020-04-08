@@ -4,9 +4,10 @@
 #include <string.h>
 #include <ctype.h>
 
-#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/DELAS_PB.txt"
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/hinoVitoria.txt"
 
 #include "binary_tree.h"
+#include "str_manipulation.h"
 
 Node *elementCreator(char str[]){
     Node *new = (Node*)malloc(sizeof(Node));
