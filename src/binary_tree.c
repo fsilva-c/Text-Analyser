@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <string.h>
 #include <ctype.h>
 
-#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/test.txt"
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/DELAS_PB.txt"
 
 #include "binary_tree.h"
 
@@ -31,10 +32,10 @@ Node *tree(Node *root, Node *element){
     else{
         if(root->code > element->code)
             root->left = tree(root->left, element);
-        else if(root->code < element->code)
+        else //if(root->code < element->code)
             root->right = tree(root->right, element);
-        else
-            root->ocurrenceInTheText++;
+        //else
+            //root->ocurrenceInTheText++;
     }
 
     return root;    
@@ -86,3 +87,12 @@ int wordsQuantity(Node *root){
     else
         return 1 + wordsQuantity(root->left) + wordsQuantity(root->right);
 }//END function
+
+int leaveQuantity(Node *root){
+    if(root == NULL)
+        return 0;
+   if(root->left == NULL && root->right == NULL)
+        return 1;
+
+   return leaveQuantity(root->left) + leaveQuantity(root->right);
+}
