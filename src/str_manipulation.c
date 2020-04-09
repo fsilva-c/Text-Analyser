@@ -9,7 +9,7 @@
 int codGenerator(char str[]){
     int sizeStr = strlen(str);
 
-    int map[sizeStr];
+    int map[sizeStr]; memset(map, 0, sizeof(map));
     for(int i = 0; i < sizeStr; i++){
         map[i] = str[i];
     }
@@ -21,8 +21,9 @@ int codGenerator(char str[]){
 
 int codConverter(int map[], int sizeMap){
     int num = 0;
-    for(int i = sizeMap; i > 0; i--){
-        num += 10 * i * map[sizeMap - 1];
+    for(int i = 0; i < sizeMap; i++){
+        num *= 3;
+        num += map[i];
     }
 
     return num;
