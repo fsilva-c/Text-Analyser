@@ -4,7 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/mega.txt"
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/wordlist-big-latest.txt"
 
 #include "binary_tree.h"
 #include "str_manipulation.h"

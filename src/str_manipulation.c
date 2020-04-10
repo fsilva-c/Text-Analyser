@@ -50,7 +50,7 @@ void strTratament(char str[]){
 }//END function
 
 bool checkTableInternal(unsigned char character){
-    if(character >= 33 && character <= 64)
+    if(character >= 33 && character <= 44 || character >= 46 && character <= 64)
         return false;
     else
         return true;
