@@ -2,6 +2,7 @@
 #define STR
 
 #include <stdbool.h>
+#include <math.h>
 
 int codGenerator(char str[]);
 int codConverter(int map[], int sizeMap);

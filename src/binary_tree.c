@@ -4,7 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/hinoVitoria.txt"
+#define BOOK_PATH "/home/qwerty/Documents/multilanguage/word_analizer/books/mega.txt"
 
 #include "binary_tree.h"
 #include "str_manipulation.h"
@@ -60,7 +60,7 @@ Node *treeCreator_wordsArchive(Node *root){
     }
 
     char word[WORD_SIZE];
-    while(fscanf(pArchive, "%s\n", word) != EOF){
+    while(fscanf(pArchive, "%s", word) != EOF){
         Node *new = elementCreator(word);
         root = tree(root, new);
     }
@@ -109,4 +109,16 @@ int ocurrenceTotalQuantity(Node *root){
         return sumOcurrences = root->ocurrenceInTheText + ocurrenceTotalQuantity(root->left) + ocurrenceTotalQuantity(root->right);
 
     return sumOcurrences;
+}//END function
+
+int characteresQuantity(Node *root){
+    int sumCharacteres = 0;
+
+    if(root == NULL)
+        return 0;
+    
+    if(root != NULL)
+        return sumCharacteres = root->wordSize + characteresQuantity(root->left) + characteresQuantity(root->right);
+
+    return sumCharacteres;
 }//END function

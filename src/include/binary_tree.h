@@ -21,5 +21,6 @@ int treeHeight(Node *root);
 int wordsQuantity(Node *root);
 int leaveQuantity(Node *root);
 int ocurrenceTotalQuantity(Node *root);
+int characteresQuantity(Node *root);
 
 #endif

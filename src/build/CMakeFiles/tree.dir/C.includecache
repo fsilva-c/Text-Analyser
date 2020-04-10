@@ -11,6 +11,8 @@
 ../include/str_manipulation.h
 stdbool.h
 -
+math.h
+-
 
 /home/qwerty/Documents/multilanguage/word_analizer/src/binary_tree.c
 stdio.h

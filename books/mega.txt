@@ -1,0 +1,66 @@
+GIANLUCCA DEL CIELO LAVADO
+A pandemia do novo coronavírus alterou o modo como muitos encaram situações cotidianas que antes pareciam bem comuns. Passar por alguém na rua é seguro? É possível fazer compras sem colocar minha família em risco? E quanto a encomendas e o delivery? E qual dessas atividades representa o maior risco? Infelizmente, ainda não sabemos muito sobre como funciona a propagação do vírus que causa a doença.
+
+O Dr. Jeffrey N. Martin, professor do Departamento de Epidemiologia e Bioestatística da Universidade da Califórnia afirmou que “nesse momento, acho que ninguém pode examinar um grupo de pessoas com covid-19, e dizer como cada um foi infectado, ou concluir com certeza que x% foi infectado por gotículas e y% foi por contato com superfícies. Acho que esse tipo de estudo nunca foi realizado para qualquer infecção. Na maioria dos casos, não sabemos como a pessoa foi infectada”.
+
+Mas com o passar do tempo, os cientistas estão descobrindo cada vez mais sobre a covid-19, e abaixo, temos explicações sobre as formas como o novo coronavírus (SARS-CoV-2) se propaga.
+
+Transmissão respiratória
+O SARS-CoV-2 é um vírus respiratório e, sendo assim, é transmitido principalmente entre indivíduos através de “gotículas respiratórias” daqueles que apresentam os sintomas quando espirram ou tossem.
+
+A ideia de que grandes gotículas de muco carregado de vírus são o principal modo de transmissão foi o principal motivo por trás da orientação de manter uma distância de pelo menos um metro e meio entre você e outras pessoas. Logo, graças à gravidade, essas gotículas grandes (que são maiores que cerca de 0,0002 polegadas ou 5 mícrons) caem no chão a uma distância de cerca de 1,8 metro de alguém infectado.
+
+Porém, segundo Josh Santarpia, diretor de pesquisa do Programa de Combate a Armas de Destruição Maciça do Instituto Nacional de Pesquisa Estratégica da Universidade de Nebraska, a diretriz dos dois metros é mais uma estimativa aproximada do que uma regra rígida.
+
+“Realmente não há nada mágico em ficar a um metro e meio de distância de alguém com quem você está interagindo diretamente. Se estiver conversando com uma pessoa que está infectada com o vírus, seja a 1 ou 1,8 metro de distância, haverá algum risco de infecção”, ressaltou Santarpia.
+
+
+O diretor de pesquisa explicou que as gotículas respiratórias podem viajar longas distâncias se as condições do fluxo de ar estiverem corretas. Outro fato importante é que alguns especialistas acreditam que a regra dos dois metros foi baseada em informações desatualizadas.
+
+“Provavelmente, dois metros não são seguros o bastante. Esta regra de distanciamento social se baseia em alguns estudos das décadas de 30 e 40, que já foram demonstrados como incorretos - as gotículas podem viajar mais de um metro”, disse Raina MacIntyre, uma pesquisadora e professora de biossegurança global, que lidera o Programa de Biossegurança no Instituto Kirby, na Austrália. “No entanto, os especialistas em controle de infecções hospitalares continuam acreditando nessa regra”.
+
+Outro fator que complica a situação é que pelo menos 25% das pessoas que estão transmitindo o coronavírus podem estar assintomáticas na época, alertou o Dr. Robert Redfield, diretor dos Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos. Isso sugere que tosses e espirros não são necessários para a propagação da doença, embora ainda não esteja claro se simplesmente respirar espalha o vírus, ou se é necessário falar.
+
+Transmissão por aerossol
+
+Para que o novo coronavírus se espalhe sem ser expelido por tosses ou espirros em grandes gotas de muco, ele deve, de algum jeito, ficar suspenso no ar por tempo suficiente para infectar os transeuntes. E esse é outro ponto que complica para descobrir com certeza como funciona a transmissão: as pessoas emitem partículas de vírus em vários tamanhos, e algumas são pequenas o suficiente para serem consideradas aerossóis, ou partículas finas que podem ficar suspensas no ar por horas e viajar com correntes de ar por dezenas de metros. Um estudo publicado em 17 de março no New England Journal of Medicine revelou que as partículas virais em aerossol poderiam permanecer viáveis por até 3 horas.
+
+O que ainda não permanece claro sobre esses dados é se o vírus é transmitido normalmente por aerossóis, ou por quanto tempo o vírus permanece infeccioso em aerossóis dentro de ambientes reais. Nesse estudo, os pesquisadores usaram uma concentração extremamente alta de partículas virais, que podem não refletir as que realmente são expelidas pelas pessoas com a doença.
+
+“Que eu saiba, não há evidências definitivas de que a transmissão por aerossol é a única rota possível”, disse Santarpia (por exemplo, mesmo alguém que não esteja espirrando, ainda é possível emitir gotículas respiratórias ao falar, porque as pessoas podem cuspir enquanto falam e essas gotículas podem ser depositadas em superfícies).
+
+Contudo, um estudo de caso de um coral em Mount Vernon, Washington, pode ser bem sugestivo. O grupo se reuniu para praticar durante duas horas no início de março. Nenhum dos participantes estava sintomático, então não houve tosses ou espirros com gotículas infectadas, além disso todos mantiveram a distância estipulada.
+
+O coral praticava na Igreja Presbiteriana de Mount Vernon. (Fonte: Reprodução)
+O coral praticava na Igreja Presbiteriana de Mount Vernon. (Fonte: Reprodução)
+
+Mesmo assim, 45 pessoas foram infectadas com covid-19 e pelo menos duas pessoas morreram com o vírus, informou o Los Angeles Times. Isso sugere que as partículas virais foram lançadas em forma de aerossóis por alguém, antes de serem inaladas pelos outros membros do coral. Em 2019, a revista Nature Scientific Reports publicou um estudo que explicava que as pessoas emitem mais partículas de aerossol ao falarem, e que se comunicar em volumes mais altos está correlacionado com a emissão de mais partículas de aerossol.
+
+O caso do coral, juntamente com esses estudos, sugere que o vírus pode ser transmitido rotineiramente por aerossóis, embora outras rotas de transmissão (como grandes gotículas sendo emitidas durante o canto ou a fala) ainda sejam possíveis explicações. No surto de SARS de 2003, a transmissão de aerossóis ocorreu durante procedimentos hospitalares que geraram grandes volumes de aerossóis, como por exemplo, a intubação.
+
+Transmissão por contato
+
+Acredita-se que há uma outra rota que desempenha um papel na disseminação da covid-19: a transmissão por contato. Nessa situação, as partículas virais emitidas pelo trato respiratório de um indivíduo infectado aterrissam em uma superfície. Então, outra pessoa toca no objeto, e depois toca o nariz, a boca ou os olhos. O vírus entra no corpo através das membranas mucosas, causando assim a infecção.
+
+Até o momento, ninguém sabe o quão comum é este modo, mas parece ser bem possível. Um estudo descobriu que o SARS-CoV-2 pode permanecer viável em superfícies como papelão por até 24 horas, e em plástico e aço por 2 a 3 dias.
+
+Santarpia estudou a contaminação viral de superfícies em pacientes hospitalizados com covid-19 no Centro Médico da Universidade de Nebraska. Nesse estudo publicado em 26 de março no banco de dados de pré-impressão medRxiv, Santarpia e seus colegas encontraram contaminação viral em amostras de ar, em locais como banheiros e em superfícies frequentemente tocadas.
+
+Também em 26 de março, o CDC publicou um relatório sobre o navio Diamond Princess, que foi assolado pelo coronavírus. Uma equipe de investigação encontrou traços de RNA do SARS-CoV-2 até 17 dias depois nas superfícies de todo o cruzeiro, nas cabines de passageiros infectados que apresentaram ou não os sintomas - embora nenhuma evidência sugira que esse RNA viral ainda fosse infeccioso (lembrando que o novo coronavírus tem como base o RNA, o que significa que seu principal material genético é RNA, e não o DNA).
+
+Outro relato de caso publicado pelo CDC, desta vez de Cingapura, também sugeriu que o contato com superfícies contaminadas possa transmitir o vírus. Nesse caso, uma pessoa infectada com SARS-CoV-2, mas ainda não sintomática, compareceu a uma cerimônia religiosa. Mais tarde, outro indivíduo que sentou no mesmo lugar acabou contraindo a doença. Todavia, não foi possível determinar se a propagação ocorreu através de uma superfície contaminada ou um aerossol potencialmente persistente.
+
+Os alimentos são seguros?
+
+Por enquanto, não há evidências de que exista uma forma de transmissão através de alimentos. O vírus não tem uma vida longa em alimentos e, embora seja possível que as embalagens de itens vendidos nos mercados ou de refeições de delivery contenham pequenas concentrações de partículas de SARS-CoV-2, é fácil acabar com esse risco lavando as mãos depois de manuseá-las.
+
+O que podemos concluir com estas informações
+O fato de tantas atividades aparentemente corriqueiras poderem servir como modos de transmissão é um tanto assustador. E é ainda mais aterrorizante não conhecer os riscos reais associados a cada uma delas. Sem essas informações, como podemos tomar as medidas certas para nos proteger? Porém, todos os dados mencionados acima ajudam a oferecer um pouco de segurança.
+
+“A verdade é que as pessoas que possuem um membro da família infectado pelo vírus têm uma probabilidade maior de contraírem a covid-19 do que aqueles que não estão em contato com alguém infectado. Isso nos diz muito. Isso nos diz que contato próximo é o fator mais importante”, afirmou o Dr. Martin.
+
+Ele também acredita que passar brevemente por uma pessoa na rua, a uma distância de 2 metros, provavelmente apresente um baixo risco de infecção, e que conversar com alguém que está a 1,8 metros de você possa oferecer uma chance muito maior de contaminação.
+
+Por fim, os especialistas ressaltam o quanto o distanciamento social é uma ferramenta poderosa para cortar todas as rotas hipotéticas de transmissão.
+
+“Se a outra pessoa expelir o vírus no ar, quanto mais você ficar perto dela, maior a chance de acabar sendo exposto”, explicou Linsey Marr, que estuda o transporte de poluentes aéreos no departamento de Engenharia Civil e Ambiental na Virginia Tech.
