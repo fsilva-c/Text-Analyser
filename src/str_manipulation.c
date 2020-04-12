@@ -9,10 +9,10 @@
 int codGenerator(char str[]){
     int sizeStr = strlen(str);
 
-    unsigned char unsChar;
+    register unsigned char unsChar;
 
     int map[sizeStr]; memset(map, 0, sizeof(map));
-    for(int i = 0; i < sizeStr; i++){
+    for(register int i = 0; i < sizeStr; i++){
         unsChar = str[i];
         map[i] = unsChar;
     }
@@ -23,8 +23,8 @@ int codGenerator(char str[]){
 }//END function
 
 int codConverter(int map[], int sizeMap){
-    int num = 0;
-    for(int i = 0; i < sizeMap; i++){
+    register int num = 0;
+    for(register int i = 0; i < sizeMap; i++){
         num *= 10;
         num += map[i];
     }
@@ -33,15 +33,15 @@ int codConverter(int map[], int sizeMap){
 }//END funtion
 
 void strLower(char str[]){
-    for(int i = 0; i < strlen(str); i++)
+    for(register int i = 0; i < strlen(str); i++)
         str[i] = tolower(str[i]);
 }//END function
 
 void strTratament(char str[]){
     int sizeStr = strlen(str);
 
-    unsigned char c;
-    for(int i = 0; i < sizeStr; i++){
+    register unsigned char c;
+    for(register int i = 0; i < sizeStr; i++){
         c = str[i];
         if(checkTableInternal(c) == false){
             str[i] = 0;
